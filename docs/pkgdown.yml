@@ -1,0 +1,10 @@
+pandoc: 2.3.1
+pkgdown: 1.5.1
+pkgdown_sha: ~
+articles:
+  main_data_spawner: main_data_spawner.html
+last_built: 2020-05-24T04:16Z
+urls:
+  reference: https://athospd.github.io/fundsNindexes//reference
+  article: https://athospd.github.io/fundsNindexes//articles
+

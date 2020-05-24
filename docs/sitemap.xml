@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://athospd.github.io/fundsNindexes//index.html</loc>
+  </url>
+  <url>
+    <loc>https://athospd.github.io/fundsNindexes//reference/extract_batch_ibov.html</loc>
+  </url>
+  <url>
+    <loc>https://athospd.github.io/fundsNindexes//reference/extract_batch_ima.html</loc>
+  </url>
+  <url>
+    <loc>https://athospd.github.io/fundsNindexes//reference/extract_batch_sp500.html</loc>
+  </url>
+  <url>
+    <loc>https://athospd.github.io/fundsNindexes//reference/extract_batch_usdbrl.html</loc>
+  </url>
+  <url>
+    <loc>https://athospd.github.io/fundsNindexes//reference/extract_daily_ima.html</loc>
+  </url>
+  <url>
+    <loc>https://athospd.github.io/fundsNindexes//reference/extract_funds_by_cnpj_list.html</loc>
+  </url>
+  <url>
+    <loc>https://athospd.github.io/fundsNindexes//reference/get_funds_at_least.html</loc>
+  </url>
+  <url>
+    <loc>https://athospd.github.io/fundsNindexes//reference/pipe.html</loc>
+  </url>
+  <url>
+    <loc>https://athospd.github.io/fundsNindexes//reference/spawn_index_dataframe.html</loc>
+  </url>
+  <url>
+    <loc>https://athospd.github.io/fundsNindexes//articles/main_data_spawner.html</loc>
+  </url>
+</urlset>
