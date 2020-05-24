@@ -1,0 +1,68 @@
+---
+output: github_document
+always_allow_html: true
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# fundsNindexes
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Generate data.frame with selected funds quota and some daily indexes quotes.
+
+## Installation
+
+``` r
+# install.packages("devtools")
+devtools::install_github("Athospd/fundsNindexes")
+```
+## Example
+
+```{r example}
+library(fundsNindexes)
+
+ini_date = '18/05/2020'
+end_date = '20/05/2020'
+
+cnpj_list = get_funds_at_least(1e3,1e9)
+
+df_funds = extract_funds_by_cnpj_list(ini_date,end_date,cnpj_list)
+df_index = spawn_index_dataframe(ini_date,end_date)
+
+df_joined = merge(df_funds
+                  ,df_index
+                  ,by = "date")
+```
+
+```{r}
+dplyr::glimpse(df_joined)
+```
+
+
+## Available Indexes
+
+* USD/BRL - closing day
+* S&P 500 - closing day
+* IBOV - closing day
+* IMA family
+  * IRF-M
+  * IRF-M 1
+  * IRF-M 1+
+  * IMA-B
+  * IMA-B 5
+  * IMA-B 5+
+  * IMA-C
+  * IMA-S
+  * IMA-GERAL
+  * IMA-GERAL ex-C

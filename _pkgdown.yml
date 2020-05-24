@@ -1,0 +1,40 @@
+destination: docs
+
+url: https://athospd.github.io/fundsNindexes/
+
+home:
+  title: Funds and Indexes
+  links:
+  - text: Ask a question about this package
+    href: https://github.com/Athospd/fundsNindexes/issues
+
+
+authors:
+   Diego Wesllen da Silva:
+     href: https://github.com/diegowsilva
+
+navbar:
+  structure:
+    left:
+    - home
+    - intro
+    - reference
+    - articles
+    - tutorials
+    - news
+    right: github
+  components:
+    home:
+      icon: fas fa-home fa-lg
+      href: index.html
+    reference:
+      text: Reference
+      href: reference/index.html
+    github:
+      icon: fab fa-github fa-lg
+      href: https://github.com/Athospd/fundsNindexes/
+    articles:
+      text: Articles
+      menu:
+      - text: Data Spawner
+        href: articles/main_data_spawner.html
